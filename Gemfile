@@ -5,7 +5,7 @@ gem 'rails'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '~> 0.2.17'
+gem 'mysql2', '< 0.2.17'
 
 
 # Use unicorn as the web server
@@ -30,5 +30,6 @@ gem 'mysql2', '~> 0.2.17'
 # group :development, :test do
 #   gem 'webrat'
 # end
-gem 'fcgi'
-gem 'minitest'
+
+#gem 'fcgi'
+#gem 'minitest'
